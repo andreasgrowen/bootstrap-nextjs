@@ -9,11 +9,11 @@ function Header(){
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navbar-nav ms-auto" >
-                <Nav.Link href="/#learn">What you'll Learn</Nav.Link>
+                <Nav.Link href="/#learn">What you&apos;ll Learn</Nav.Link>
                 <Nav.Link href="/#FAQ">FAQ</Nav.Link>
                 <Nav.Link href="/#Instructors">Instructors</Nav.Link>
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/#learn">What you'll Learn</NavDropdown.Item>
+                <NavDropdown.Item href="/#learn">What you&apos;ll Learn</NavDropdown.Item>
                 <NavDropdown.Item href="/#FAQ">FAQ</NavDropdown.Item>
                 <NavDropdown.Item href="/#Instructors">Instructors</NavDropdown.Item>
                 <NavDropdown.Divider />

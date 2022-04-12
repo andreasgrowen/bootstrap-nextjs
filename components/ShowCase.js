@@ -1,5 +1,6 @@
 import MyModal from "./Modal"
 import React from 'react'
+import Image from "next/image";
 
 function ShowCase(){
     const [modalShow, setModalShow] = React.useState(false);
@@ -11,12 +12,12 @@ function ShowCase(){
                         <div> 
                             <h1>Become a <span className="text-warning">WebDeveloper</span></h1>
                             <p className="lead my-4">
-                                We focus on being better then Fabian , but seriously that can't be very hard. Because he is a bit lazy. And he likes meditation and yoga. 
+                                We focus on being better then Fabian , but seriously that can&apos;t be very hard. Because he is a bit lazy. And he likes meditation and yoga. 
                             </p>
                             <button className="btn btn-primary btn-lg" onClick={() => setModalShow(true)}>Start the process</button>
 
                         </div>
-                        <img src="img/showcase.svg" className="img-fluid w-50 d-none d-sm-block" alt=""/>
+                        <Image src="img/showcase.svg" className="img-fluid w-50 d-none d-sm-block" alt=""/>
                     </div>
                 </div>
             </section>

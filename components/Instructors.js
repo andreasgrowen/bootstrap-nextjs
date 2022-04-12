@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 function Instructors(){
  return(
@@ -12,7 +13,7 @@ function Instructors(){
                 <div className="col-md-6 col-lg-3">
                     <div className="card bg-light">
                         <div className="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt=""/>
+                        <Image src="https://randomuser.me/api/portraits/men/11.jpg" className="rounded-circle " alt="" height="128" width="128" />
                             <h3 className="card-title mb-3">John Doe</h3>
                             <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#"><i className="be bi-twitter text-dark mx-1"></i></a>
@@ -25,7 +26,7 @@ function Instructors(){
                 <div className="col-md-6 col-lg-3">
                     <div className="card bg-light">
                         <div className="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt=""/>
+                            <Image src="https://randomuser.me/api/portraits/women/11.jpg" className="rounded-circle" alt="" height="128" width="128" />
                             <h3 className="card-title mb-3">Jane Doe</h3>
                             <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#"><i className="be bi-twitter text-dark mx-1"></i></a>
@@ -38,7 +39,7 @@ function Instructors(){
                 <div className="col-md-6 col-lg-3">
                     <div className="card bg-light">
                         <div className="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/14.jpg" class="rounded-circle mb-3" alt=""/>
+                            <Image src="https://randomuser.me/api/portraits/women/14.jpg" className="rounded-circle " alt="" height="128" width="128" />
                             <h3 className="card-title mb-3">Karen Bittschnaps</h3>
                             <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#"><i className="be bi-twitter text-dark mx-1"></i></a>
@@ -51,7 +52,7 @@ function Instructors(){
                 <div className="col-md-6 col-lg-3">
                     <div className="card bg-light">
                         <div className="card-body text-center">
-                            <img src="https://randomuser.me/api/portraits/women/21.jpg" class="rounded-circle mb-3" alt=""/>
+                        <Image src="https://randomuser.me/api/portraits/women/21.jpg" className="rounded-circle " alt="" height="128" width="128" />
                             <h3 className="card-title mb-3">Lucy Lui</h3>
                             <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                             <a href="#"><i className="be bi-twitter text-dark mx-1"></i></a>

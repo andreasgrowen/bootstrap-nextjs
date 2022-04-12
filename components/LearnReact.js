@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 function LearnReact() {
     return (
         <>
@@ -8,16 +10,16 @@ function LearnReact() {
                         <div className="col-md p-5">
                             <h2>Learn React</h2>
                             <p className="lead">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti possimus magnam corporis ratione facere teenkaastaart!
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti possimus magnam corporis ratione facere teenkaastaart!
                             </p>
                             <p className="lead">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam iste minus placeat odit velit quos, nulla architecto amet voluptates?
                             </p>
                             <a href="#" className="btn btn-light mt-3"><i className="bi bi-chevron-right">Read More</i></a>
 
                         </div>
                         <div className="col-md">
-                            <img src="img/react.svg" alt="" className="img-fluid" />
+                            <Image src="img/react.svg" alt="" className="img-fluid" />
                         </div>
 
 
