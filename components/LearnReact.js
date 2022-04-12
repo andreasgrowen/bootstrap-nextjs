@@ -19,7 +19,7 @@ function LearnReact() {
 
                         </div>
                         <div className="col-md">
-                            <Image src="img/react.svg" alt="" className="img-fluid" />
+                            <Image src="/img/react.svg" fluid="true" width="505px" height="358px"/>
                         </div>
 
 

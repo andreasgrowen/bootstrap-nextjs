@@ -7,7 +7,7 @@ function Learn() {
                 <div className="container">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-md">
-                            <Image src="img/fundamentals.svg" alt="" className="img-fluid" />
+                            <Image src="/img/fundamentals.svg" alt="Learn the fundamentals" fluid="true" width="505px" height="358px" />
                         </div>
                         <div className="col-md p-5">
                             <h2>Learn The Fundamentals</h2>

@@ -17,7 +17,7 @@ function ShowCase(){
                             <button className="btn btn-primary btn-lg" onClick={() => setModalShow(true)}>Start the process</button>
 
                         </div>
-                        <Image src="img/showcase.svg" className="img-fluid w-50 d-none d-sm-block" alt=""/>
+                        <Image src="/img/showcase.svg" className="img-fluid w-50 d-none d-sm-block" alt="" fluid="true" width="505px" height="358px"/>
                     </div>
                 </div>
             </section>
